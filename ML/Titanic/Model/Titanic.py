@@ -22,8 +22,9 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 #############################IMPORTANDO DATA################################
-print(os.environ['USERPROFILE'])
+#print(os.environ['USERPROFILE'])
 data_folder = Path("/GitHub/DataScience/ML/Titanic/Dataset/")
+print(data_folder)
 df_test = pd.read_csv(data_folder / "test.csv")
 df_train = pd.read_csv(data_folder /"train.csv")
 
