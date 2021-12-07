@@ -8,7 +8,7 @@ Created on Mon Dec  6 14:50:22 2021
 ##Procesamiento de Datos
 import numpy as np
 import pandas as pd
-import os
+#import os
 from pathlib import Path
 
 ##Algoritmos de ML
@@ -25,8 +25,8 @@ from sklearn.neighbors import KNeighborsClassifier
 #print(os.environ['USERPROFILE'])
 data_folder = Path("/GitHub/DataScience/ML/Titanic/Dataset/")
 print(data_folder)
-df_test = pd.read_csv(data_folder / "test.csv")
-df_train = pd.read_csv(data_folder /"train.csv")
+df_test = pd.read_csv("F:" / data_folder / "test.csv")
+df_train = pd.read_csv("F:" / data_folder / "train.csv")
 
 print(df_test.head())
 print(df_train.head())
