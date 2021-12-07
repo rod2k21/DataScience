@@ -109,10 +109,43 @@ print(y)
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2)
 
 ##Regresión logística
+logreg = LogisticRegression()
+logreg.fit(x_train, y_train)
+Y_pred = logreg.predict(x_test)
+print('Precision Regresion Logistica:')
+print(logreg.score(x_train, y_train))
 
 ##Support Vector Machines
+svc = SVC()
+svc.fit(x_train, y_train)
+Y_pred = svc.predict(x_test)
+print('Precision Soporte de Vectores:')
+print(svc.score(x_train, y_train))
 
 ##K Neighbors
+Knn = KNeighborsClassifier(n_neighbors = 3)
+Knn.fit(x_train, y_train)
+Y_pred = Knn.predict(x_test)
+print('Precision Vecinos mas cercanos:')
+print(Knn.score(x_train, y_train))
 
 #####################PREDICCIÓN UTILIZANDO LOS MODELOS#######################
+ids = df_test['PassengerId']
 
+##Regresión logística
+prediccion_logreg = logreg.predict(df_test.drop('PassengerId', axis=1))
+out_logreg = pd.DataFrame({'PassengerId' : ids, 'Survived': prediccion_logreg })
+print('Prediccion Regresion Logistica:')
+print(out_logreg.head())
+
+##Support Vector Machines
+prediccion_svc = svc.predict(df_test.drop('PassengerId', axis=1))
+out_svc = pd.DataFrame({'PassengerId' : ids, 'Survived': prediccion_svc })
+print('Prediccion RSoporte de Vectores:')
+print(out_svc.head())
+
+##K Neighbors
+prediccion_knn = Knn.predict(df_test.drop('PassengerId', axis=1))
+out_knn = pd.DataFrame({'PassengerId' : ids, 'Survived': prediccion_knn })
+print('Prediccion Vecinos mas cercanos:')
+print(out_knn.head())
