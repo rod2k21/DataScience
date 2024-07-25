@@ -1,0 +1,17 @@
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.csproj.AssemblyReference.cache
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.AssemblyInfoInputs.cache
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.AssemblyInfo.cs
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.csproj.CoreCompileInputs.cache
+C:\Github\DataScience\ML\TCN\TCNInvoke1\bin\Debug\net6.0\TCNInvoke1.exe
+C:\Github\DataScience\ML\TCN\TCNInvoke1\bin\Debug\net6.0\TCNInvoke1.deps.json
+C:\Github\DataScience\ML\TCN\TCNInvoke1\bin\Debug\net6.0\TCNInvoke1.runtimeconfig.json
+C:\Github\DataScience\ML\TCN\TCNInvoke1\bin\Debug\net6.0\TCNInvoke1.dll
+C:\Github\DataScience\ML\TCN\TCNInvoke1\bin\Debug\net6.0\TCNInvoke1.pdb
+C:\Github\DataScience\ML\TCN\TCNInvoke1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.csproj.CopyComplete
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.dll
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\refint\TCNInvoke1.dll
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.pdb
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\TCNInvoke1.genruntimeconfig.cache
+C:\Github\DataScience\ML\TCN\TCNInvoke1\obj\Debug\net6.0\ref\TCNInvoke1.dll

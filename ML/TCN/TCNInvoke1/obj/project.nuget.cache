@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o2zA17r6FnYxaFFoWc45tAKTP0g+wNSeuZWjUSA5SWbIBsSFuw2inOgFMrWxp5qMkMHUg0W51d2l0UYnSSGZ/A==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\DataScience\\ML\\TCN\\TCNInvoke1\\TCNInvoke1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodrigr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
